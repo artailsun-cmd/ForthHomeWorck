@@ -174,7 +174,7 @@ else
         }
         else
         {
-            Console.WriteLine($"{number} is nit a prime.");
+            Console.WriteLine($"{number} is not a prime.");
         }
     }
     else
@@ -183,6 +183,7 @@ else
     }
 
     static bool IsPrime(int number)
+  
     {
         if (number < 2)
             return false;
@@ -194,3 +195,4 @@ else
         }
 
         return true;
+    }
